@@ -1,0 +1,21 @@
+atomicwrites==1.3.0
+attrs==19.1.0
+cycler==0.10.0
+# forcelayout==1.0.6
+# 因为修改了 forcelayout， 安装该库，程序会自动从系统获取该库，
+# 而忽略我们的修改，建议使用python 虚拟环境。
+importlib-metadata==0.19
+kiwisolver==1.0.1
+matplotlib==3.0.3
+more-itertools==7.2.0
+numpy==1.16.2
+pluggy==0.12.0
+py==1.8.0
+pyparsing==2.3.1
+PyQt5==5.13.0
+PyQt5-sip==4.19.18
+PyQt5-stubs==5.13.0.1
+pytest==4.0.1
+python-dateutil==2.8.0
+six==1.12.0
+zipp==0.5.2

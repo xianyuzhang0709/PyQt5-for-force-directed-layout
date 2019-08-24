@@ -1,0 +1,25 @@
+# 配置虚拟环境（官方 python， Conda 的方法不同，它有自己的一套逻辑，请查阅官方文档）
+python -m venv env
+
+# 激活虚拟环境
+# linux/Mac os
+source env/bin/activate
+# windows(使用 cmd，或则在 powershell 使用 cmd 命令切换到 cmd 环境 )
+cmd
+call env\scripts\activate
+
+# 安装依赖库
+
+pip install -r requirements.txt
+
+# 因为修改了 forcelayout， 安装该库，程序会自动从系统获取该库，
+# 而忽略我们的修改，建议不要在环境中安装该库
+# 建议使用python 虚拟环境。
+# 我们的修改是尽量确保其官方文档中表述的方法都能正常运行的。
+
+# 打包 exe
+
+建议不要打包，不会提高性能，一般打包不会成功的，
+而且，打包程序兼容并不高；如果您使用 conda的话，这个过程更加痛苦。
+
+如果非要打包，建议安装较低一点版本的 PyQt5，比如 5.9.x 的版本，再次如果您使用conda，这个过程会更加痛苦。
