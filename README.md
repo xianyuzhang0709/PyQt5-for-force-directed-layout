@@ -7,7 +7,7 @@
 1. **[Brute Force algorithm](https://ieeexplore.ieee.org/document/1173161)**: A basic approach to forced-direct layouts. The force between every pair of nodes is calculated and applied in every iteration. 
 Complexity: O(N^3)
 Note: This method doesn't show in this application.
-2. **[Chalmers' 1996 algorithm](https://ieeexplore.ieee.org/document/567787) **: Use random sampling techniques to build up a neighbor set for each node. This method can reduce the computational cost but achieve similar quality results.
+2. **[Chalmers' 1996 algorithm](https://ieeexplore.ieee.org/document/567787)**: Use random sampling techniques to build up a neighbor set for each node. This method can reduce the computational cost but achieve similar quality results.
 Complexity: O(N^2)
 3. **[Hybrid Layout algorithm](https://ieeexplore.ieee.org/document/1173161)**: Perform Chalmers' 1996 algorithm on a subset of the data, then the sample layout could be used for interpolating the remaining data-points.
 Stage: Sampling; Interpolate remaining (First substage: find parent in the sample for each remaining object; Second substage: position remaining objects).
