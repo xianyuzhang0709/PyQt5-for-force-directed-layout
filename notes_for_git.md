@@ -1,6 +1,6 @@
-###【 2020.2.16】
+##【 2020.2.16】
 
-1 撤销add和commit
+####1 撤销add和commit
 
 Git push之后，文件太大，且没必要上传env文件夹，暂停：Ctrl+C
 
@@ -10,8 +10,12 @@ Git push之后，文件太大，且没必要上传env文件夹，暂停：Ctrl+C
 
 这时候保留了你的修改，并且只清除了你的add和commit。
 
-2 修改global信息
+####2 contribution showing up on my profile:
 
-git config --global user.name "xxx xx"
+修改global信息
 
-git config --global user.email "email@address.com"
+* `git config --global user.name "xxx xx"`
+
+* `git config --global user.email "email@address.com"`
+
+verify account emails.
